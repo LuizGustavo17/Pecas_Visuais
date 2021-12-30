@@ -1,0 +1,25 @@
+<html>
+    <!--- Primeiramente vou desenhar no canvas e fazer o navegador
+        interpretar--->
+    <body>
+        <canvas width="600" height="600">
+            <!---Escolhi uma área de 600x600px-->
+            <script>
+                let canvas=document.querySelector('canvas');
+                let context=canvas.getContext('2d');
+                context.fillStyle='blue';
+                //context.fillRect(100, 100, 400, 400);
+                context.lineWidth=4;
+                context.beginPath();
+                context.rect(100,100,400,400);
+                context.stroke();
+                //desenhando a forma de um quadrado no browser
+                context.beginPath();
+                context.arc(300, 300, 100, 0, Math.PI*2);
+                //desenhando um círculo dentro do quadrado
+                context.stroke();
+
+            </script>
+        </canvas>
+    </body>
+</html>
