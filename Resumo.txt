@@ -1,0 +1,1 @@
+Neste repositório vou apresentar algumas técnicas que aprendi para a criação e manipulação de imagens visuais. A linguagem que irei utilizar será Javascript.
