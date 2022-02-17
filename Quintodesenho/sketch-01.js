@@ -1,4 +1,4 @@
-//Da para brincar com o círculo de várias formas, aqui eu completei algo mais rebuscado.
+//Da para estilizar o círculo de várias formas, aqui eu completei algo mais rebuscado.
 //Eu usei bastante a aleatoriedade para gerar uma boa abstração.
 const canvasSketch = require('canvas-sketch');
 const math = require('canvas-sketch-util/math');
